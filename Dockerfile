@@ -12,7 +12,7 @@ RUN  pip install  \
         matplotlib \ 
         xgboost \ 
         category-encoders \ 
-        imbalance \
+        imblearn \
         seaborn
 
 EXPOSE 8888

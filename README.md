@@ -4,6 +4,11 @@
   
 ## How to run
 1. Build docker image
+   - Handling  *imbalanced* data
+   - *Undersampling* and *Oversampling* data
+   - **SMOTE** for oversampling
+   - **SVM** Classifier
+   - **Neural Network** for classification
    
    `docker build -t creditcardfraud .`
 2.  Run docker container
@@ -14,4 +19,4 @@
     `jupyter-notebook --ip='0.0.0.0' --port=8888 --no-browser --allow-root`
 
 ## Resources
-- [Dataset](https://www.kaggle.com/c/6960/download-all)
+- [Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud/download/n7JSHTyuPpQwNKm4kymy%2Fversions%2FKVl6UxjpoofYh2wWqI1T%2Ffiles%2Fcreditcard.csv?datasetVersionNumber=3)
