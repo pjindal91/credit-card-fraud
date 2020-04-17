@@ -3,7 +3,8 @@ FROM continuumio/anaconda3
 RUN conda install \
         pydot \
         graphviz \ 
-        tensorflow
+        tensorflow \
+        keras
 
 RUN  pip install  \
         scikit-learn  \
