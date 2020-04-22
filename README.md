@@ -1,14 +1,18 @@
 # Kaggle Credict Card Fraud
 
 ## Topics Covered
+- Handling  *imbalanced* data
+- *Undersampling* and *Oversampling* data
+- **SMOTE** for oversampling
+- Analysis using **TSNE**
+- **SVM** Classifier
+- **KNeighborsClassifier** Classifier
+- **Neural Network** for classification
+- **Auto Encoders** for Anomoly Detection
+- Metrics: *ROC*, *Precision*, *Recall*
   
 ## How to run
 1. Build docker image
-   - Handling  *imbalanced* data
-   - *Undersampling* and *Oversampling* data
-   - **SMOTE** for oversampling
-   - **SVM** Classifier
-   - **Neural Network** for classification
    
    `docker build -t creditcardfraud .`
 2.  Run docker container
